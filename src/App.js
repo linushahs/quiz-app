@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Route path="/" exact>
+        <Route path="/(|quiz-app)/" exact>
           <SetupQuiz
             num={noOfQuestion}
             setNoOfQuestion={setNoOfQuestion}
